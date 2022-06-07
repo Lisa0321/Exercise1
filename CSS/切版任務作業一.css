@@ -49,10 +49,12 @@ table {
 /* *{
     outline: 1px solid black;
 } */
+body{
+    font-family: sans-serif;
+}
 .wrap{
     width: 940px;
     margin: 0 auto;
-    font-family: sans-serif;
 }
 .header{
     display: flex;
@@ -63,14 +65,14 @@ table {
 .logo{
     width: 220px;
 }
-.btn ul{
+.navbar ul{
     display: flex;
     align-items: center;
 }
-.btn ul li{
+.navbar ul li{
     margin-left: 60px;
 }
-.btn ul li a{
+.navbar ul li a{
     display: block;
     text-decoration: none;
     color: #3F5D45;
@@ -78,7 +80,7 @@ table {
     font-weight: bold;
     padding: 10px 20px;
 }
-.btn ul li a:hover{
+.navbar ul li a:hover{
     text-decoration: underline;
 }
 .banner{
@@ -88,7 +90,7 @@ table {
     display: flex;
     width: 940px;
 }
-.style1{
+.menu-item{
     padding: 16px 0px;
     text-align: center;
     font-size: 24px;
@@ -108,7 +110,7 @@ h2{
 .menu ul li a:hover{
     background-color: #EAF0ED;
 }
-.product-list ul{
+.product-list{
     display: flex;
     flex-wrap: wrap;
 }
@@ -118,7 +120,7 @@ h2{
     margin-bottom: 20px;
     position: relative;
 }
-.text{
+.product-detail{
     display: flex;
 }
 h3{
@@ -173,9 +175,11 @@ span{
 .pagination ul{
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 .pagination ul a{
-    width: 24px;
+    max-width: 24px;
     height: 24px;
     padding: 16px;
     display: block;
@@ -184,10 +188,6 @@ span{
     font-size: 20px;
     text-align: center;
     border: 1px solid #EAF0ED;
-}
-.pagination ul li{
-    margin-top: 10px;
-    margin-bottom: 60px;
 }
 .pagination ul a:hover{
     background-color: #EAF0ED;

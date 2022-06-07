@@ -5,20 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>切版任務作業一</title>
-    <link rel="stylesheet" href="css/切版任務作業一.css">
+    <link rel="stylesheet" href="CSS/切版任務作業一.css">
 </head>
 
 <body>
     <div class="wrap">
         <div class="header">
-            <h1>
-                <div class="logo">
-                    <a href="#">
-                        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg"alt="logo">
-                    </a>
-                </div>
+            <h1 class="logo">
+                <a href="#">
+                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg"alt="logo">
+                </a>
             </h1>
-            <div class="btn">
+            <div class="navbar">
                 <ul>
                     <li><a href="#">首頁</a></li>
                     <li><a href="#">甜點</a></li>
@@ -32,92 +30,76 @@
         </div>
         <div class="content">
             <div class="menu">
-                <h2 class="style1">甜點類別</h2>
+                <h2 class="menu-item">甜點類別</h2>
                 <ul>
-                    <li><a class="style1" href="#">所有甜點 (48)</a></li>
-                    <li><a class="style1" href="#">本日精選 (10)</a></li>
-                    <li><a class="style1" href="#">人氣推薦 (26)</a></li>
-                    <li><a class="style1" href="#">新品上市 (12)</a></li>
+                    <li><a class="menu-item" href="#">所有甜點 (48)</a></li>
+                    <li><a class="menu-item" href="#">本日精選 (10)</a></li>
+                    <li><a class="menu-item" href="#">人氣推薦 (26)</a></li>
+                    <li><a class="menu-item" href="#">新品上市 (12)</a></li>
                 </ul>
             </div>
-            <div class="product-list">
-                <ul>
-                  <li>
-                      <div class="box">
-                          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true" alt="product1">
-                          <div class="text">
-                              <h3>焦糖馬卡龍</h3>
-                              <p>NT$ 450</p>
-                          </div>
-                          <div class="addcart"><a href="#">加入購物車</a></div>
-                          <span>本日精選</span>
-                          <div class="favorite"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt="favorite_border"></div>
-                          
+            <ul class="product-list">
+                <li class="box">
+                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true" alt="product1">
+                      <div class="product-detail">
+                          <h3>焦糖馬卡龍</h3>
+                          <p>NT$ 450</p>
                       </div>
+                      <div class="addcart"><a href="#">加入購物車</a></div>
+                      <span>本日精選</span>
+                      <a class="favorite" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt=""></a>
                   </li>
-                  <li>
-                      <div class="box">
-                        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-2.png?raw=true" alt="product2">
-                        <div class="text">
-                            <h3>焦糖馬卡龍</h3>
-                            <p>NT$ 450</p>
-                        </div>
-                        <div class="addcart"><a href="#">加入購物車</a></div>
-                        <span>本日精選</span>
-                        <div class="favorite"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt="favorite_border"></div>
-
+                <li class="box">
+                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-2.png?raw=true" alt="product2">
+                      <div class="product-detail">
+                          <h3>焦糖馬卡龍</h3>
+                          <p>NT$ 450</p>
+                     </div>
+                      <div class="addcart"><a href="#">加入購物車</a></div>
+                      <span>本日精選</span>
+                      <a class="favorite" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt=""></a>
+                </li>
+                <li class="box">
+                      <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-3.png?raw=true" alt="product3">
+                      <div class="product-detail">
+                          <h3>焦糖馬卡龍</h3>
+                          <p>NT$ 450</p>
                       </div>
-                  </li>
-                  <li>
-                      <div class="box">
-                        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-3.png?raw=true" alt="product3">
-                        <div class="text">
-                            <h3>焦糖馬卡龍</h3>
-                            <p>NT$ 450</p>
-                        </div>
-                        <div class="addcart"><a href="#">加入購物車</a></div>
-                        <span>本日精選</span>
-                        <div class="favorite"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt="favorite_border"></div>
+                      <div class="addcart"><a href="#">加入購物車</a></div>
+                      <span>本日精選</span>
+                      <a class="favorite" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt=""></a>
+                </li>
+                <li class="box">
+                      <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-4.png?raw=true" alt="product4">
+                      <div class="product-detail">
+                          <h3>焦糖馬卡龍</h3>
+                          <p>NT$ 450</p>
                       </div>
-                  </li>
-                  <li>
-                      <div class="box">
-                        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-4.png?raw=true" alt="product4">
-                        <div class="text">
-                            <h3>焦糖馬卡龍</h3>
-                            <p>NT$ 450</p>
-                        </div>
-                        <div class="addcart"><a href="#">加入購物車</a></div>
-                        <span>本日精選</span>
-                        <div class="favorite"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt="favorite_border"></div>
+                      <div class="addcart"><a href="#">加入購物車</a></div>
+                      <span>本日精選</span>
+                      <a class="favorite" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt=""></a>
+                </li>
+                <li class="box">
+                      <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-5.png?raw=true" alt="product5">
+                      <div class="product-detail">
+                          <h3>焦糖馬卡龍</h3>
+                          <p>NT$ 450</p>
                       </div>
-                  </li>
-                  <li>
-                      <div class="box">
-                        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-5.png?raw=true" alt="product5">
-                        <div class="text">
-                            <h3>焦糖馬卡龍</h3>
-                            <p>NT$ 450</p>
-                        </div>
-                        <div class="addcart"><a href="#">加入購物車</a></div>
-                        <span>本日精選</span>
-                        <div class="favorite"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt="favorite_border"></div>
+                      <div class="addcart"><a href="#">加入購物車</a></div>
+                      <span>本日精選</span>
+                      <a class="favorite" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt=""></a>
+                </li>
+                <li class="box">
+                      <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-6.png?raw=true" alt="product6">
+                      <div class="product-detail">
+                          <h3>焦糖馬卡龍</h3>
+                          <p>NT$ 450</p>
                       </div>
-                  </li>
-                  <li>
-                      <div class="box">
-                        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-6.png?raw=true" alt="product6">
-                        <div class="text">
-                            <h3>焦糖馬卡龍</h3>
-                            <p>NT$ 450</p>
-                        </div>
-                        <div class="addcart"><a href="#">加入購物車</a></div>
-                        <span>本日精選</span>
-                        <div class="favorite"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt="favorite_border"></div>
-                      </div>
-                  </li>
-                </ul>
-            </div>
+                      <div class="addcart"><a href="#">加入購物車</a></div>
+                      <span>本日精選</span>
+                      <a class="favorite" href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true" alt=""></a>
+                </li>
+            </ul>
         </div>
         <div class="pagination">
             <ul>
